@@ -19,7 +19,7 @@ createBtn.addEventListener("click", () => {
   inputBox.setAttribute("contenteditable", "true");
 
   const img = document.createElement("img");
-  img.src = "images/images/delete.png";  // ✅ Corrected nested path
+  img.src = "delete.png";  // 
   img.className = "delete-btn";
 
   note.appendChild(inputBox);
@@ -46,3 +46,4 @@ document.addEventListener("keydown", event => {
     event.preventDefault();
   }
 });
+
